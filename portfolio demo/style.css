@@ -1,33 +1,33 @@
 body{
-      font-family:"Brush Script MT";
-      padding:0px;
-      color:orange;
-      background-color:pink;
-      font-size:100px;
-      margin:42px;
+    font-family:"Brush Script MT";
+    padding:0px;
+    color:orange;
+    background-color:pink;
+    font-size:100px;
+    margin:42px;
 
-     }
+}
 /*margin is the space outside something; padding is the space inside*/
 
 header{background-color: #333;
-       padding: 20px;
-       text-align: center;
-        }
+    padding: 20px;
+    text-align: center;
+}
        
       
 h1{
-      font-family:"Courier New";
-      font-size:50px;
-      color:blue;
-      font-weight:900;
-     }
+    font-family:"Courier New";
+    font-size:50px;
+    color:blue;
+    font-weight:900;
+}
  
 h2{
-     font-family:"Arial";
-     font-size:200px;
-     color: white;
-     border-style:dashed;
-     border-color:red;
+    font-family:"Arial";
+    font-size:200px;
+    color: white;
+    border-style:dashed;
+    border-color:red;
 }
 
 p{
