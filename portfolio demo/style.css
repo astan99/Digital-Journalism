@@ -1,7 +1,7 @@
 body{
     font-family:"Lato", sans-serif;
     padding:0px;
-    color:orange;
+    color:black;
     background-color:white;
     font-size:100px;
     margin:42px;
@@ -10,7 +10,6 @@ body{
 /*margin is the space outside something; padding is the space inside*/
 
 header{
-    background-color: #333;
     padding: 20px;
     text-align: center;
 }
