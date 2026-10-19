@@ -18,6 +18,27 @@
     </p>
     <iframe title="Performance of Unique Movies in 2026" aria-label="Bar Chart" id="datawrapper-chart-eOt0a" src="https://datawrapper.dwcdn.net/eOt0a/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="544" data-external="1"></iframe><script type="text/javascript">(function(){function e(){window.addEventListener(`message`,function(e){if(e.data[`datawrapper-height`]!==void 0){var t=document.querySelectorAll(`iframe`);for(var n in e.data[`datawrapper-height`])for(var r=0,i;i=t[r];r++)if(i.contentWindow===e.source){var a=e.data[`datawrapper-height`][n]+`px`;i.style.height=a}}})}e()})();</script>
 
+
+    <div class = "chart_container">
+        <canvas id = chart>
+
+        </canvas>
+    </div>
+
+    <script>
+        const ctx = document.getElementById("chart");
+        new Chart(ctx, {
+            type: "line",
+            data: {
+                labels: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                dataset:[{
+                    label:"Coffee Spending",
+                    data:[6.00,12.00,12.00,18.00,18.00]
+                }]
+            }
+        })
+    </script>
+
     
     
 </body>
