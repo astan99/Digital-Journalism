@@ -12,6 +12,7 @@
 #picture_one{
     background-color: #ebd62f;
     object-fit: cover;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -19,5 +20,8 @@
 
 #picture_two {
     background-color: #b5cadc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
