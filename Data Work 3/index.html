@@ -81,17 +81,23 @@
         <div id="graph 2">
             <canvas id="myChart2"></canvas>
             <script>
-                const countries = ["China",
-        "France",
-        "United Kingdom",
-        "India",
-        "Pakistan",
-        "Israel",
-        "North Korea"];
-        const warheads = [600, 290, 225, 180, 170, 90, 50];
-        new Chart(document.getElementById('myChart2'), {
+                const countries = ["China", "France", "United Kingdom", "India", "Pakistan", "Israel", "North Korea"];
+
+    const warheads = [600, 290, 225, 180, 170, 90, 50];
+
+    new Chart(document.getElementById('myChart2'), {
         type: 'bar',
-        data: warheads,
+        data: {
+            labels: countries,
+            datasets: [
+                {
+                    label: 'Nuclear Warheads (2025)',
+                    data: warheads,
+                    backgroundColor: 'blue',
+                    borderWidth: 1
+                }
+            ]
+        },
         options: {
             indexAxis: 'y',
             scales: {
