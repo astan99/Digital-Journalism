@@ -7,3 +7,10 @@
     font-size: 25px;
     font-style: italic;
 }
+
+#picture_one{
+    background-color: yellow;
+    object-fit: cover;
+
+
+}
