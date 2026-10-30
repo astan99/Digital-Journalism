@@ -9,8 +9,9 @@
 }
 
 #picture_one{
-    background-color: yellow;
+    background-color: #ebd62f;
     object-fit: cover;
-
-
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
